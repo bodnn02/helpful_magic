@@ -182,5 +182,111 @@ body {
 .underline {
     text-decoration-line: underline;
 }
+.contacts-wrapper {
+    margin-right: 77px;
+    display: flex;
+    gap: 49px;
+}
+
+/* Footer info block *Start* */
+
+.footer-info {
+    border-top: 2px solid #E3E3E3;
+}
+.footer-info > .container {
+    display: flex;
+    margin: 0 10%;
+}
+.footer-info > .container > * {
+    padding-top: 45px;
+    padding-bottom: 58px;
+}
+.info-block:first-child {
+    padding-right: 54px;
+}
+.info-block:last-child {
+    padding-left: 54px;
+}
+.info-block > .text-p {
+    margin-top: 39px;
+}
+.text-h2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30.4576px;
+    line-height: 44px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.text-p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.8313px;
+    line-height: 23px;
+
+    color: #959595;
+}
+.articles {
+    padding-left: 58px;
+    padding-right: 52px;
+    border-left: 2px solid #E3E3E3;
+    border-right: 2px solid #E3E3E3;
+}
+.articles-header {
+    display: flex;
+    gap: 34px;
+}
+.articles-header > .text-h2 {
+    border-right: 2px solid #E3E3E3;
+    padding-right: 34px;
+}
+.articles-list {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+.articles-list__item {
+    display: flex;
+    gap: 20px;
+}
+.articles-list__preview {
+    width: 118px;
+    height: 78px;
+    background: #D9D9D9;
+}
+.articles-list__title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5619px;
+    line-height: 25px;
+
+    color: #000000;
+}
+.articles-list__date {
+    margin-top: 6px;
+    display: flex;
+    gap: 9px;
+}
+.articles-list__date-icon {
+    width: 18.77px;
+    height: 18.77px;
+}
+.particles-list__date-text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.079px;
+    line-height: 19px;
+
+    color: #666666;
+    opacity: 0.9;
+}
+
+/* Footer info block *Stop* */
 
 /* Footer *Stop* */
