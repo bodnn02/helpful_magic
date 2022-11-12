@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Контакты</title>
 </head>
 <body>
     <header class="header">
@@ -46,10 +46,10 @@
             <div class="container">
                 <img class="logo" src="img/logo.svg" alt="Спасительная Магия">
                 <nav class="nav-links">
-                    <a class="nav-links__item selected" href="">ГЛАВНАЯ</a>
+                    <a class="nav-links__item" href="">ГЛАВНАЯ</a>
                     <a class="nav-links__item" href="">НАШИ УСЛУГИ</a>
                     <a class="nav-links__item" href="">СТАТЬИ</a>
-                    <a class="nav-links__item" href="">КОНТАКТЫ</a>
+                    <a class="nav-links__item selected" href="">КОНТАКТЫ</a>
                     <a class="nav-links__item" href="">СТРАНИЧКА МАСТЕРА</a>
                     <a class="nav-links__item" href="">ФОРУМ</a>
                 </nav>
@@ -60,8 +60,63 @@
             </div>
         </div>
     </header>
-    <main role="main">
-        content
+    <main class="content" role="main">
+        <header class="content-header">
+            <div class="container">
+                <h1 class="text-h1">Контакты</h1>
+            </div>
+        </header>
+        <div class="contacts-content">
+            <div class="contacts-left">
+                <div class="map"></div>
+                <p class="text-p">Во всех серьезных ситуациях и многих, многих других дать советы для принятия важных решений, готовы наши специалисты. Из сложных жизненных ситуаций(тупиков) мы поможем Вам выпутаться и принять единственно верное решение.</p>
+                <div class="contacts-wrapper">
+                    <a class="link" href="">
+                        <img class="link__icon" src="img/phone.svg" alt="">
+                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
+                    </a>
+                    <a class="link" href="">
+                        <img class="link__icon" src="img/email.svg" alt="">
+                        <h3 class="text-h3 red underline">iwana2014@yandex.ru</h3>
+                    </a>
+                    <a class="link" href="">
+                        <img class="link__icon" src="img/phone.svg" alt="">
+                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
+                    </a>
+                    <a class="link" href="">
+                        <img class="link__icon" src="img/house.svg" alt="">
+                        <h3 class="text-h3">Россия, Крымск</h3>
+                    </a>
+                </div>
+            </div>
+            <form class="contacts-form">
+                <header class="contacts-form__header">
+                    <h2 class="contacts-form__title">Остались вопросы?</h2>
+                </header>
+                <div class="contacts-form__body">
+                    <div class="contacts-form__wrapper">
+                        <label class="label" for="">Имя</label>
+                        <input class="input_underline" type="text" placeholder="Имя">
+                        <label class="label" for="">Телефон</label>
+                        <input class="input_underline" type="tel" placeholder="+7 951 233 34 12">
+                        <label class="label" for="">Email</label>
+                        <input class="input_underline" type="email" placeholder="vehnosttrue@gmail.com">
+                        <label class="label" for="">Кому</label>
+                        <select class="select" name="" id="">
+                            <option value="Rescuer (Администратор)">Rescuer (Администратор)</option>
+                        </select>
+                        <img class="captcha" src="img/captcha.png"></img>
+                        <label class="label" for="">Введите код</label>
+                        <input class="input_underline" type="text" placeholder="Код">
+                    </div>
+                    <div class="contacts-form__wrapper">
+                        <label class="label" for="">Сообщение</label>
+                        <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="Детали заявки. Во всех серьезных ситуациях и многих, многих других дать советы для принятия важных решений, готовы наши специалисты. Из сложных жизненных ситуаций(тупиков) мы поможем Вам выпутаться и принять единственно верное решение."></textarea>
+                        <button class="form-btn" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </main>
     <footer class="footer">
         <div class="footer-info">
