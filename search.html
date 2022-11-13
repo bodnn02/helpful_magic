@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Статьи</title>
+    <title>Поиск</title>
 </head>
 <body>
     <header class="header">
@@ -69,19 +69,70 @@
         <div class="content-body">
             <div class="container">
                 <div class="search-extended">
-                    <h3 class="search-extended__filter-title">Поиск по содержанию</h3>
-                    <div class="search-extended__filter">
-                        <label class="label" for="">Слова для поиска</label>
-                        <input class="input" type="text">
-                        <div class="checkbox-wrapper">
-                            <input class="checkbox" type="checkbox" name="" id="">
-                            <label class="checkbox__label" for="">Точное совпадение всех слов</label>
+                    <div>
+                        <h3 class="search-extended__filter-title">Поиск по содержанию</h3>
+                        <div class="search-extended__filter">
+                            <label class="label" for="">Слова для поиска</label>
+                            <input class="input" type="text">
+                            <div class="checkbox-wrapper">
+                                <input class="checkbox" type="checkbox" name="" id="">
+                                <label class="checkbox__label" for="">Точное совпадение всех слов</label>
+                            </div>
+                            <select class="select" name="" id="">
+                                <option value="Искать в статьях" selected>Искать в статьях</option>
+                            </select>
                         </div>
-                        <select class="select_multiple" name="" id="" multiple>
-                            <option value="Искать в статьях" selected>Искать в статьях</option>
-                        </select>
+                        <div class="search-extended__filter">
+                            <label class="label" for="">Найти статьи</label>
+                            <div class="flex-wrapper">
+                                <select class="select" name="" id="">
+                                    <option value="Искать в статьях" selected>Менее</option>
+                                </select>
+                                <input class="input" type="text">
+                            </div>
+                            <label class="label" for="">Временной период</label>
+                            <div class="flex-wrapper">
+                                <select class="select" name="" id="">
+                                    <option value="Искать в статьях" selected>За всё время</option>
+                                </select>
+                                <select class="select" name="" id="">
+                                    <option value="Искать в статьях" selected>И новее</option>
+                                </select>
+                            </div>
+                        </div>
+                        <h3 class="search-extended__filter-title">Сортировка результата поиска</h3>
+                        <div class="search-extended__filter">
+                            <select class="select" name="" id="">
+                                <option value="Искать в статьях" selected>Дата статьи или</option>
+                            </select>
+                            <select class="select" name="" id="">
+                                <option value="Искать в статьях" selected>По убыванию</option>
+                            </select>
+                        </div>
+                        <div class="search-extended__buttons">
+                            <button class="button_bordered">Поиск</button>
+                            <button class="button_red">Расширенный поиск</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="search-extended__filter-title">Поиск имени пользователя</h3>
+                        <div class="search-extended__filter">
+                            <label class="label" for="">Имя пользователя</label>
+                            <input class="input" type="text">
+                            <div class="checkbox-wrapper">
+                                <input class="checkbox" type="checkbox" name="" id="">
+                                <label class="checkbox__label" for="">Точное совпадение всех слов</label>
+                            </div>
+                        </div>
+                        <h3 class="search-extended__filter-title">Поиск по разделам</h3>
+                        <div class="search-extended__filter">
+                            <select class="select" name="" id="">
+                                <option value="Искать в статьях" selected>Сила</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
+                <h2 class="search-h2">По Вашему запросу найдено 3 ответов (Результаты запроса 1 - 3) :</h2>
                 <ul class="articles-list">
                     <li class="articles-list__item">
                         <img class="articles-list__preview" src="img/article_preview.png" alt="Preview">
@@ -146,84 +197,61 @@
                             </div>
                         </div>
                     </li>
-                    <li class="articles-list__item">
-                        <img class="articles-list__preview" src="img/article_preview.png" alt="Preview">
-                        <div class="articles-list__wrapper">
-                            <h3 class="articles-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
-                            <p class="articles-list__text">Не каждому дано быть здоровым,но наши универсальные технологии дадут возможность,оставаться здоровым долгие годы.</p>
-                            <div class="articles-list__meta-wrapper">
-                                <div class="articles-list__meta">
-                                    <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="articles-list__meta-text">12.03.22</p>
-                                </div>
-                                <div class="articles-list__meta">
-                                    <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
-                                    <p class="articles-list__meta-text">377</p>
-                                </div>
-                                <div class="articles-list__meta">
-                                    <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
-                                    <p class="articles-list__meta-text">45</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="articles-list__item">
-                        <img class="articles-list__preview" src="img/article_preview.png" alt="Preview">
-                        <div class="articles-list__wrapper">
-                            <h3 class="articles-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
-                            <p class="articles-list__text">Не каждому дано быть здоровым,но наши универсальные технологии дадут возможность,оставаться здоровым долгие годы.</p>
-                            <div class="articles-list__meta-wrapper">
-                                <div class="articles-list__meta">
-                                    <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="articles-list__meta-text">12.03.22</p>
-                                </div>
-                                <div class="articles-list__meta">
-                                    <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
-                                    <p class="articles-list__meta-text">377</p>
-                                </div>
-                                <div class="articles-list__meta">
-                                    <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
-                                    <p class="articles-list__meta-text">45</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="articles-list__item">
-                        <img class="articles-list__preview" src="img/article_preview.png" alt="Preview">
-                        <div class="articles-list__wrapper">
-                            <h3 class="articles-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
-                            <p class="articles-list__text">Не каждому дано быть здоровым,но наши универсальные технологии дадут возможность,оставаться здоровым долгие годы.</p>
-                            <div class="articles-list__meta-wrapper">
-                                <div class="articles-list__meta">
-                                    <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="articles-list__meta-text">12.03.22</p>
-                                </div>
-                                <div class="articles-list__meta">
-                                    <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
-                                    <p class="articles-list__meta-text">377</p>
-                                </div>
-                                <div class="articles-list__meta">
-                                    <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
-                                    <p class="articles-list__meta-text">45</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
                 </ul>
-                <nav class="pagination">
-                    <button class="pagination__back-btn"></button>
-                    <ul class="pagination__pages">
-                        <li class="pagination__pages__item selected">1</li>
-                        <li class="pagination__pages__item">2</li>
-                        <li class="pagination__pages__item">3</li>
-                        <li class="pagination__pages__item">4</li>
-                    </ul>
-                    <button class="pagination__next-btn"></button>
-                </nav>
             </div>
         </div>
     </main>
     <footer class="footer">
+        <div class="container">
+            <h2 class="text-h2">КОНТАКТЫ</h2>
+        </div>
+        <div class="footer-contacts">
+            <div class="contacts-left">
+                <div class="map"></div>
+                <p class="text-p">Во всех серьезных ситуациях и многих, многих других дать советы для принятия важных решений, готовы наши специалисты. Из сложных жизненных ситуаций(тупиков) мы поможем Вам выпутаться и принять единственно верное решение.</p>
+                <div class="contacts-wrapper">
+                    <a class="link" href="">
+                        <img class="link__icon" src="img/phone.svg" alt="">
+                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
+                    </a>
+                    <a class="link" href="">
+                        <img class="link__icon" src="img/email.svg" alt="">
+                        <h3 class="text-h3 red underline">iwana2014@yandex.ru</h3>
+                    </a>
+                    <a class="link" href="">
+                        <img class="link__icon" src="img/phone.svg" alt="">
+                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
+                    </a>
+                    <a class="link" href="">
+                        <img class="link__icon" src="img/house.svg" alt="">
+                        <h3 class="text-h3">Россия, Крымск</h3>
+                    </a>
+                </div>
+            </div>
+            <form class="contacts-form">
+                <header class="contacts-form__header">
+                    <h2 class="contacts-form__title">Остались вопросы?</h2>
+                </header>
+                <div class="contacts-form__body">
+                    <div class="contacts-form__wrapper">
+                        <label class="label" for="">Имя</label>
+                        <input class="input_underline" type="text" placeholder="Имя">
+                        <label class="label" for="">Телефон</label>
+                        <input class="input_underline" type="tel" placeholder="+7 951 233 34 12">
+                        <label class="label" for="">Email</label>
+                        <input class="input_underline" type="email" placeholder="vehnosttrue@gmail.com">
+                        <label class="label" for="">Прикрепите файл</label>
+                        <input class="input_file" type="file" name="" id="">
+                        <div class="input_file-error">Файл не выбран!</div>
+                    </div>
+                    <div class="contacts-form__wrapper">
+                        <label class="label" for="">Сообщение</label>
+                        <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="Детали заявки. Во всех серьезных ситуациях и многих, многих других дать советы для принятия важных решений, готовы наши специалисты. Из сложных жизненных ситуаций(тупиков) мы поможем Вам выпутаться и принять единственно верное решение."></textarea>
+                        <button class="form-btn" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form>
+        </div>
         <div class="footer-info">
             <div class="container">
                 <div class="info-block">
