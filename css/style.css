@@ -291,6 +291,7 @@ body {
     display: flex;
 }
 .contacts-left {
+    max-width: 533px;
     display: flex;
     flex-direction: column;
     margin-left: 10%;
@@ -353,7 +354,14 @@ body {
     width: 160px;
     height: 80px;
 }
+.captcha + label {
+    margin-top: 20px;
+}
 .form-btn {
+    width: 182px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 32px;
     padding: 17px 43px;
 
@@ -387,14 +395,36 @@ body {
     border-radius: 24px;
 }
 .articles-list_scroll {
+    position: relative;
     margin-bottom: 55px;
     margin-left: 10%;
     max-width: 90vw;
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
 
     border-top: 2px solid #E3E3E3;
     border-bottom: 2px solid #E3E3E3;
+}
+.articles-list_scroll__before-btn {
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    box-shadow: 100px 0 10px 0 white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/arrow-horizontal.svg);
+}
+.articles-list_scroll__next-btn {
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    box-shadow: inset 10em 10em linear-gradient(to right, black, transparent);
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-position: center center;
+    background-image: url(../img/arrow-horizontal.svg);
 }
 .articles-list_scroll::-webkit-scrollbar {
     width: 0;
@@ -551,6 +581,7 @@ body {
     margin-top: 45px;
 }
 .search-extended__filter {
+    min-width: 456.83px;
     display: flex;
     gap: 15px;
     flex-direction: column;
@@ -641,7 +672,7 @@ body {
 /* Thesis list *Start* */
 
 .thesis-list {
-    margin: 62px 0;
+    margin-bottom: 62px;
     display: flex;
     flex-direction: column;
 }
@@ -650,6 +681,7 @@ body {
     border-bottom: 2px solid #E0E0E0;
 }
 .thesis-list__item > .flex-wrapper {
+    margin-top: 72px;
     gap: 40px;
 }
 .thesis-list__title {
@@ -674,7 +706,7 @@ body {
     align-items: self-start;
 
     width: 528px;
-    height: 565px;
+    max-height: 565px;
 }
 .thesis-list__preview {
     max-width: 528px;
@@ -1017,7 +1049,7 @@ body {
     color: #717171;
 }
 .label + input {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .label + select {
     margin-top: 30px;
@@ -1094,7 +1126,6 @@ input + .label   {
     color: #9C9C9C;
 }
 .textarea {
-    min-width: 479px;
     border: 1px solid #9B9B9B;
     border-radius: 21px;
     padding: 24px;
@@ -1213,6 +1244,8 @@ input + .label   {
     color: #000000;
 }
 .input_file-error {
+    margin-top: 20px;
+
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
