@@ -1332,6 +1332,7 @@ input + .label   {
     }
     .free-kassa {
         padding-left: 0;
+        padding-right: 0;
         border: none;
     }
 }
@@ -1345,6 +1346,7 @@ input + .label   {
         border-right: none;
     }
     .footer-contacts {
+        margin-top: 33px;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -1489,7 +1491,15 @@ input + .label   {
         padding-right: 3%;
     }
     .articles-wrapper {
+        margin-bottom: 33px;
         margin-right: 0;
+    }
+    .contacts-left {
+        margin-top: 33px;
+    }
+    .contacts-form__title {
+        padding-top: 33px;
+        padding-bottom: 33px;
     }
     .articles-list_scroll > button {
         display: none;
@@ -1502,6 +1512,9 @@ input + .label   {
     .form-btn {
         font-size: 16.1762px;
         line-height: 23px;
+    }
+    .components-list__item {
+        flex-direction: column;
     }
     .copyright {
         font-size: 12px;
@@ -1572,6 +1585,68 @@ input + .label   {
     }
     .content-header .flex-wrapper {
         order: 4;
+    }
+    .footer-info > .container {
+        margin: 0;
+    }
+    .footer-bottom .contacts-wrapper {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .articles-list_scroll__item {
+        padding: 33px 26px;
+    }
+    .label + .textarea {
+        margin-top: 25px;
+    }
+    .footer-info > .container > * {
+        padding: 33px 3%;
+    }
+    .articles_mini {
+        width: unset;
+    }
+    .info-block:first-child {
+        border-bottom: 2px solid #E3E3E3;
+    }
+    .info-block:last-child {
+        border-top: 2px solid #E3E3E3;
+    }
+    .articles-list_scroll {
+        padding: 33px 26px;
+        gap: 12px;
+    }
+    .articles-list__preview {
+        width: 149px;
+    }
+    .articles-list_scroll__item {
+        padding: 21px 14px;
+        max-width: 320px;
+        gap: 15px;
+        border: 0.502521px solid #A6A6A6;
+        border-radius: 15.4264px;
+    }
+    .articles-list__title {
+        font-size: 13.9097px;
+        line-height: 20px;
+    }
+    .articles-list__text {
+        width: min-content;
+        font-size: 9.7872px;
+        line-height: 14px;
+    }
+    .articles-list__meta-wrapper {
+        gap: 11px;
+    }
+    .articles-list__meta-icon {
+        width: 10.5px;
+        height: 10.5px;
+    }
+    .articles-list__meta-text {
+        font-size: 7.31332px;
+        line-height: 11px;
+    }
+    .footer-bottom > .container > .flex-wrapper {
+        padding: 33px 0;
     }
 }
 /* Media requests *Stop* */
