@@ -46,17 +46,22 @@
             <div class="container">
                 <img class="logo" src="img/logo.svg" alt="Спасительная Магия">
                 <nav class="nav-links">
-                    <a class="nav-links__item" href="">ГЛАВНАЯ</a>
-                    <a class="nav-links__item" href="">НАШИ УСЛУГИ</a>
-                    <a class="nav-links__item selected" href="">СТАТЬИ</a>
-                    <a class="nav-links__item" href="">КОНТАКТЫ</a>
-                    <a class="nav-links__item" href="">СТРАНИЧКА МАСТЕРА</a>
-                    <a class="nav-links__item" href="">ФОРУМ</a>
+                    <a class="nav-links__item selected" href="">ГЛАВНАЯ</a>
+                    <a class="nav-links__item" href="/services.html">НАШИ УСЛУГИ</a>
+                    <a class="nav-links__item" href="/articles.html">СТАТЬИ</a>
+                    <a class="nav-links__item" href="/contacts.html">КОНТАКТЫ</a>
+                    <a class="nav-links__item" href="/master-page.html">СТРАНИЧКА МАСТЕРА</a>
+                    <a class="nav-links__item" href="/forum.html">ФОРУМ</a>
                 </nav>
                 <div class="search">
                     <img class="search__icon" src="img/search.svg" alt="">
                     <input class="search__input" type="text" placeholder="Поиск...">
                 </div>
+                <button class="burger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
     </header>
@@ -125,118 +130,122 @@
                     <img class="article-img" src="img/article-img-1.png" alt="">
                     <img class="article-img" src="img/article-img-2.png" alt="">
                 </div>
-                <div class="flex-wrapper space-between">
+                <div class="articles-header">
                     <h2 class="text-h2">СТАТЬИ</h2>
                     <button class="button_red">Смотреть все</button>
                 </div>
             </div>
-            <ul class="articles-list_scroll">
-                <li class="articles-list_scroll__item">
-                    <img class="articles-list__preview" src="img/article_preview.png" alt="Preview">
-                    <div class="articles-list__wrapper">
-                        <h3 class="articles-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
-                        <p class="articles-list__text">Не каждому дано быть здоровым,но наши универсальные технологии дадут возможность,оставаться здоровым долгие годы.</p>
-                        <div class="articles-list__meta-wrapper">
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
-                                <p class="articles-list__meta-text">12.03.22</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
-                                <p class="articles-list__meta-text">377</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
-                                <p class="articles-list__meta-text">45</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="articles-list_scroll__item">
-                    <img class="articles-list__preview" src="img/article_preview-2.png" alt="Preview">
-                    <div class="articles-list__wrapper">
-                        <h3 class="articles-list__title">КАК ПРАВИЛЬНО ИСПОЛЬЗОВАТЬ РИТУАЛЬНЫЕ</h3>
-                        <p class="articles-list__text">Свечи - самый популярный магический атрибут. Свечи просты в использовании, их легко достать,</p>
-                        <div class="articles-list__meta-wrapper">
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
-                                <p class="articles-list__meta-text">12.03.22</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
-                                <p class="articles-list__meta-text">377</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
-                                <p class="articles-list__meta-text">45</p>
+            <div class="articles-wrapper">
+                <ul class="articles-list_scroll" current-page="0">
+                    <button class="articles-list_scroll__before-btn"></button>
+                    <li class="articles-list_scroll__item">
+                        <img class="articles-list__preview" src="img/article_preview.png" alt="Preview">
+                        <div class="articles-list__wrapper">
+                            <h3 class="articles-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
+                            <p class="articles-list__text">Не каждому дано быть здоровым,но наши универсальные технологии дадут возможность,оставаться здоровым долгие годы.</p>
+                            <div class="articles-list__meta-wrapper">
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">12.03.22</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">377</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">45</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li class="articles-list_scroll__item">
-                    <img class="articles-list__preview" src="img/article_preview-2.png" alt="Preview">
-                    <div class="articles-list__wrapper">
-                        <h3 class="articles-list__title">КАК ПРАВИЛЬНО ИСПОЛЬЗОВАТЬ РИТУАЛЬНЫЕ</h3>
-                        <p class="articles-list__text">Свечи - самый популярный магический атрибут. Свечи просты в использовании, их легко достать,</p>
-                        <div class="articles-list__meta-wrapper">
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
-                                <p class="articles-list__meta-text">12.03.22</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
-                                <p class="articles-list__meta-text">377</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
-                                <p class="articles-list__meta-text">45</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="articles-list_scroll__item">
-                    <img class="articles-list__preview" src="img/article_preview-2.png" alt="Preview">
-                    <div class="articles-list__wrapper">
-                        <h3 class="articles-list__title">КАК ПРАВИЛЬНО ИСПОЛЬЗОВАТЬ РИТУАЛЬНЫЕ</h3>
-                        <p class="articles-list__text">Свечи - самый популярный магический атрибут. Свечи просты в использовании, их легко достать,</p>
-                        <div class="articles-list__meta-wrapper">
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
-                                <p class="articles-list__meta-text">12.03.22</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
-                                <p class="articles-list__meta-text">377</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
-                                <p class="articles-list__meta-text">45</p>
+                    </li>
+                    <li class="articles-list_scroll__item">
+                        <img class="articles-list__preview" src="img/article_preview-2.png" alt="Preview">
+                        <div class="articles-list__wrapper">
+                            <h3 class="articles-list__title">КАК ПРАВИЛЬНО ИСПОЛЬЗОВАТЬ РИТУАЛЬНЫЕ</h3>
+                            <p class="articles-list__text">Свечи - самый популярный магический атрибут. Свечи просты в использовании, их легко достать,</p>
+                            <div class="articles-list__meta-wrapper">
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">12.03.22</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">377</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">45</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li class="articles-list_scroll__item">
-                    <img class="articles-list__preview" src="img/article_preview-2.png" alt="Preview">
-                    <div class="articles-list__wrapper">
-                        <h3 class="articles-list__title">КАК ПРАВИЛЬНО ИСПОЛЬЗОВАТЬ РИТУАЛЬНЫЕ</h3>
-                        <p class="articles-list__text">Свечи - самый популярный магический атрибут. Свечи просты в использовании, их легко достать,</p>
-                        <div class="articles-list__meta-wrapper">
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
-                                <p class="articles-list__meta-text">12.03.22</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
-                                <p class="articles-list__meta-text">377</p>
-                            </div>
-                            <div class="articles-list__meta">
-                                <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
-                                <p class="articles-list__meta-text">45</p>
+                    </li>
+                    <li class="articles-list_scroll__item">
+                        <img class="articles-list__preview" src="img/article_preview-2.png" alt="Preview">
+                        <div class="articles-list__wrapper">
+                            <h3 class="articles-list__title">КАК ПРАВИЛЬНО ИСПОЛЬЗОВАТЬ РИТУАЛЬНЫЕ</h3>
+                            <p class="articles-list__text">Свечи - самый популярный магический атрибут. Свечи просты в использовании, их легко достать,</p>
+                            <div class="articles-list__meta-wrapper">
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">12.03.22</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">377</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">45</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                    <li class="articles-list_scroll__item">
+                        <img class="articles-list__preview" src="img/article_preview-2.png" alt="Preview">
+                        <div class="articles-list__wrapper">
+                            <h3 class="articles-list__title">КАК ПРАВИЛЬНО ИСПОЛЬЗОВАТЬ РИТУАЛЬНЫЕ</h3>
+                            <p class="articles-list__text">Свечи - самый популярный магический атрибут. Свечи просты в использовании, их легко достать,</p>
+                            <div class="articles-list__meta-wrapper">
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">12.03.22</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">377</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">45</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="articles-list_scroll__item">
+                        <img class="articles-list__preview" src="img/article_preview-2.png" alt="Preview">
+                        <div class="articles-list__wrapper">
+                            <h3 class="articles-list__title">КАК ПРАВИЛЬНО ИСПОЛЬЗОВАТЬ РИТУАЛЬНЫЕ</h3>
+                            <p class="articles-list__text">Свечи - самый популярный магический атрибут. Свечи просты в использовании, их легко достать,</p>
+                            <div class="articles-list__meta-wrapper">
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/desk_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">12.03.22</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/view_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">377</p>
+                                </div>
+                                <div class="articles-list__meta">
+                                    <img class="articles-list__meta-icon" src="img/chat_fill.svg" alt="">
+                                    <p class="articles-list__meta-text">45</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <button class="articles-list_scroll__next-btn"></button>
+                </ul>
+            </div>
         </div>
     </main>
     <footer class="footer">
@@ -260,7 +269,7 @@
                                 <h3 class="articles_mini-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
                                 <div class="articles_mini-list__date">
                                     <img class="articles_mini-list__date-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="articles_mini-list__date-text">12.03.22</p>
+                                    <p class="particles_mini-list__date-text">12.03.22</p>
                                 </div>
                             </div>
                         </li>
@@ -270,7 +279,7 @@
                                 <h3 class="articles_mini-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
                                 <div class="articles_mini-list__date">
                                     <img class="articles_mini-list__date-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="articles_mini-list__date-text">12.03.22</p>
+                                    <p class="particles_mini-list__date-text">12.03.22</p>
                                 </div>
                             </div>
                         </li>
@@ -280,7 +289,7 @@
                                 <h3 class="articles_mini-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
                                 <div class="articles_mini-list__date">
                                     <img class="articles_mini-list__date-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="articles_mini-list__date-text">12.03.22</p>
+                                    <p class="particles_mini-list__date-text">12.03.22</p>
                                 </div>
                             </div>
                         </li>
@@ -312,10 +321,12 @@
                         <h3 class="text-h3 red underline">iwana2014@yandex.ru</h3>
                     </a>
                 </div>
-                <img class="free-kassa" src="img/free-kassa.svg" alt="">
-                <p class="copyright">
-                    Copyright © 2017-2020 Спасительная магия. Все права защищены. Копирование материала строго запрещено.
-                </p>
+                <div class="flex-wrapper">
+                    <img class="free-kassa" src="img/free-kassa.svg" alt="">
+                    <p class="copyright">
+                        Copyright © 2017-2020 Спасительная магия. Все права защищены. Копирование материала строго запрещено.
+                    </p>
+                </div>
             </div>
         </div>
     </footer>

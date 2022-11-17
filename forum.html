@@ -16,7 +16,7 @@
                 <div class="header-wrapper">
                     <a class="link" href="">
                         <img class="link__icon" src="img/phone.svg" alt="">
-                        <h3 class="text-h3">+7 (918) 321-17-71</h3> 
+                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
                     </a>
                     <a class="link" href="">
                         <img class="link__icon" src="img/email.svg" alt="">
@@ -46,17 +46,22 @@
             <div class="container">
                 <img class="logo" src="img/logo.svg" alt="Спасительная Магия">
                 <nav class="nav-links">
-                    <a class="nav-links__item" href="">ГЛАВНАЯ</a>
-                    <a class="nav-links__item" href="">НАШИ УСЛУГИ</a>
-                    <a class="nav-links__item" href="">СТАТЬИ</a>
-                    <a class="nav-links__item" href="">КОНТАКТЫ</a>
-                    <a class="nav-links__item" href="">СТРАНИЧКА МАСТЕРА</a>
-                    <a class="nav-links__item selected" href="">ФОРУМ</a>
+                    <a class="nav-links__item selected" href="">ГЛАВНАЯ</a>
+                    <a class="nav-links__item" href="/services.html">НАШИ УСЛУГИ</a>
+                    <a class="nav-links__item" href="/articles.html">СТАТЬИ</a>
+                    <a class="nav-links__item" href="/contacts.html">КОНТАКТЫ</a>
+                    <a class="nav-links__item" href="/master-page.html">СТРАНИЧКА МАСТЕРА</a>
+                    <a class="nav-links__item" href="/forum.html">ФОРУМ</a>
                 </nav>
                 <div class="search">
                     <img class="search__icon" src="img/search.svg" alt="">
                     <input class="search__input" type="text" placeholder="Поиск...">
                 </div>
+                <button class="burger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
     </header>
@@ -133,10 +138,20 @@
                         </div>
                     </li>
                 </ul>
+                <nav class="pagination">
+                    <button class="pagination__back-btn"></button>
+                    <ul class="pagination__pages">
+                        <li class="pagination__pages__item selected">1</li>
+                        <li class="pagination__pages__item">2</li>
+                        <li class="pagination__pages__item">3</li>
+                        <li class="pagination__pages__item">4</li>
+                    </ul>
+                    <button class="pagination__next-btn"></button>
+                </nav>
             </div> 
         </div>
     </main>
-    <footer class="footer" style="border-top: 2px solid #E3E3E3; padding-top: 48px;">
+    <footer class="footer">
         <div class="container">
             <h2 class="text-h2">КОНТАКТЫ</h2>
         </div>
@@ -207,7 +222,7 @@
                                 <h3 class="articles_mini-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
                                 <div class="articles_mini-list__date">
                                     <img class="articles_mini-list__date-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="articles_mini-list__date-text">12.03.22</p>
+                                    <p class="particles_mini-list__date-text">12.03.22</p>
                                 </div>
                             </div>
                         </li>
@@ -217,7 +232,7 @@
                                 <h3 class="articles_mini-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
                                 <div class="articles_mini-list__date">
                                     <img class="articles_mini-list__date-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="articles_mini-list__date-text">12.03.22</p>
+                                    <p class="particles_mini-list__date-text">12.03.22</p>
                                 </div>
                             </div>
                         </li>
@@ -227,7 +242,7 @@
                                 <h3 class="articles_mini-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
                                 <div class="articles_mini-list__date">
                                     <img class="articles_mini-list__date-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="articles_mini-list__date-text">12.03.22</p>
+                                    <p class="particles_mini-list__date-text">12.03.22</p>
                                 </div>
                             </div>
                         </li>
@@ -259,10 +274,12 @@
                         <h3 class="text-h3 red underline">iwana2014@yandex.ru</h3>
                     </a>
                 </div>
-                <img class="free-kassa" src="img/free-kassa.svg" alt="">
-                <p class="copyright">
-                    Copyright © 2017-2020 Спасительная магия. Все права защищены. Копирование материала строго запрещено.
-                </p>
+                <div class="flex-wrapper">
+                    <img class="free-kassa" src="img/free-kassa.svg" alt="">
+                    <p class="copyright">
+                        Copyright © 2017-2020 Спасительная магия. Все права защищены. Копирование материала строго запрещено.
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
