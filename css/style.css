@@ -686,7 +686,7 @@ body {
     text-overflow: ellipsis;
     overflow: hidden; 
     max-width: 340px;
-    width: 200px;
+    width: fit-content;
     max-height: 88px;
     margin-top: 18px;
 
