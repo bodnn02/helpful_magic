@@ -1772,6 +1772,7 @@ input + .label   {
     .articles-list_scroll__item {
         padding: 21px 14px;
         max-width: 320px;
+        min-width: 320px;
         gap: 15px;
         border: 0.502521px solid #A6A6A6;
         border-radius: 15.4264px;
