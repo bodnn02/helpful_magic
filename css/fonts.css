@@ -1,15 +1,7 @@
 @font-face {
-	font-family: 'Jost';
-	src: url('../fonts/jost/Jost-VariableFont_wght.ttf') format('woff2 supports variations'),
-	url('../fonts/jost/Jost-VariableFont_wght.ttf') format('woff2-variations');
-	font-weight: 100 1000;
-	font-stretch: 25% 151%;
-}
-@font-face {
-	font-family: 'Jost';
-	src: url('../fonts/jost/Jost-Italic-VariableFont_wght.ttf') format('woff2 supports variations'),
-	url('../fonts/jost/Jost-Italic-VariableFont_wght.ttf') format('woff2-variations');
-	font-style: italic;
-	font-weight: 100 1000;
-	font-stretch: 25% 151%;
+    font-family: 'Inter';
+    font-stretch: normal; /* Note that font-stretch is a % of normal width */
+    font-style: normal; /* See note below */
+    font-weight: normal;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf) format('woff2');
 }

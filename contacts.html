@@ -4,206 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Контакты</title>
 </head>
 <body>
     <header class="header">
-        <div class="header-top">
-            <div class="container">
-                <div class="header-wrapper">
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/phone.svg" alt="">
-                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
-                    </a>
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/email.svg" alt="">
-                        <h3 class="text-h3">iwana2014@yandex.ru</h3>
-                    </a>
-                    <h3 class="text-h3">Наши социальные сети:</h3>
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/vk.svg" alt="vk">
-                    </a>
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/ok.svg" alt="ok">
-                    </a>
-                </div>
-                <div class="header-wrapper">
-                    <button class="btn login-btn">
-                        <img class="btn__icon" src="img/lock.svg" alt="">
-                        <h3 class="text-h3">ВХОД</h3>
-                    </button>
-                    <button class="btn register-btn">
-                        <img class="btn__icon" src="img/User.svg" alt="">
-                        <h3 class="text-h3">РЕГИСТРАЦИЯ</h3>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="header-bottom">
-            <div class="container">
-                <img class="logo" src="img/logo.svg" alt="Спасительная Магия">
-                <nav class="nav-links">
-                    <a class="nav-links__item selected" href="">ГЛАВНАЯ</a>
-                    <a class="nav-links__item" href="/services.html">НАШИ УСЛУГИ</a>
-                    <a class="nav-links__item" href="/articles.html">СТАТЬИ</a>
-                    <a class="nav-links__item" href="/contacts.html">КОНТАКТЫ</a>
-                    <a class="nav-links__item" href="/master-page.html">СТРАНИЧКА МАСТЕРА</a>
-                    <a class="nav-links__item" href="/forum.html">ФОРУМ</a>
+        <div class="container">
+            <button class="mm-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a class="logo" href="index.html"></a>
+            <nav class="header-nav">
+                <a class="header-nav__link selected" href="index.html">Главная</a>
+                <a class="header-nav__link" href="property-list.html">Недвижимость</a>
+                <a class="header-nav__link" href="for-owners.html">Для Владельцев</a>
+                <a class="header-nav__link" href="about-us.html">О Нас</a>
+                <a class="header-nav__link" href="contacts.html">Контакты</a>
+            </nav>
+            <div class="m-menu">
+                <nav class="header-nav">
+                    <a class="header-nav__link selected" href="index.html">Главная</a>
+                    <a class="header-nav__link" href="property-list.html">Недвижимость</a>
+                    <a class="header-nav__link" href="for-owners.html">Для Владельцев</a>
+                    <a class="header-nav__link" href="about-us.html">О Нас</a>
+                    <a class="header-nav__link" href="contacts.html">Контакты</a>
                 </nav>
-                <div class="search">
-                    <img class="search__icon" src="img/search.svg" alt="">
-                    <input class="search__input" type="text" placeholder="Поиск...">
+                <a class="mm-link" href="">+971 52 592 49 94</a>
+                <div class="m-menu__icons">
+                    <a href="">
+                        <img src="img/Instagram.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/contact.svg" alt="">
+                    </a>
                 </div>
-                <button class="burger-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
             </div>
+            <a class="contact-btn" href="">+971 52 592 49 94</a>
         </div>
     </header>
-    <main class="content" role="main">
-        <header class="content-header">
-            <div class="container">
-                <h1 class="text-h1">Контакты</h1>
-            </div>
-        </header>
-        <div class="contacts-content">
-            <div class="contacts-left">
-                <div class="map"></div>
-                <p class="text-p">Во всех серьезных ситуациях и многих, многих других дать советы для принятия важных решений, готовы наши специалисты. Из сложных жизненных ситуаций(тупиков) мы поможем Вам выпутаться и принять единственно верное решение.</p>
-                <div class="contacts-wrapper">
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/phone.svg" alt="">
-                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
-                    </a>
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/email.svg" alt="">
-                        <h3 class="text-h3 red underline">iwana2014@yandex.ru</h3>
-                    </a>
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/phone.svg" alt="">
-                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
-                    </a>
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/house.svg" alt="">
-                        <h3 class="text-h3">Россия, Крымск</h3>
-                    </a>
-                </div>
-            </div>
-            <form class="contacts-form">
-                <header class="contacts-form__header">
-                    <h2 class="contacts-form__title">Остались вопросы?</h2>
-                </header>
-                <div class="contacts-form__body">
-                    <div class="contacts-form__wrapper">
-                        <label class="label" for="">Имя</label>
-                        <input class="input_underline" type="text" placeholder="Имя">
-                        <label class="label" for="">Телефон</label>
-                        <input class="input_underline" type="tel" placeholder="+7 951 233 34 12">
-                        <label class="label" for="">Email</label>
-                        <input class="input_underline" type="email" placeholder="vehnosttrue@gmail.com">
-                        <label class="label" for="">Кому</label>
-                        <select class="select_underline" name="" id="">
-                            <option value="Rescuer (Администратор)">Rescuer (Администратор)</option>
-                        </select>
-                        <img class="captcha" src="img/captcha.png"></img>
-                        <label class="label" for="">Введите код</label>
-                        <input class="input_underline" type="text" placeholder="Код">
+    <main>
+        <img class="banner" src="img/banner.jpg" style="height: 280px;"></img>
+        <section class="contacts-section">
+            <ul class="contacts-list">
+                <li class="contacts-list__item">
+                    <img class="contacts-list__icon" src="img/phone.svg" alt="">
+                    <div class="contacts-list__description">
+                        <a class="contacts-list__link" href="">+971 52 592 49 94</a>
+                        <label class="contacts-list__label" for="">Телефон</label>
                     </div>
-                    <div class="contacts-form__wrapper">
-                        <label class="label" for="">Сообщение</label>
-                        <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="Детали заявки. Во всех серьезных ситуациях и многих, многих других дать советы для принятия важных решений, готовы наши специалисты. Из сложных жизненных ситуаций(тупиков) мы поможем Вам выпутаться и принять единственно верное решение."></textarea>
-                        <button class="form-btn" type="submit">Отправить</button>
+                </li>
+                <li class="contacts-list__item">
+                    <img class="contacts-list__icon" src="img/mail.svg" alt="">
+                    <div class="contacts-list__description">
+                        <a class="contacts-list__link" href="">info@evasofia.net</a>
+                        <label class="contacts-list__label" for="">Email</label>
                     </div>
+                </li>
+                <li class="contacts-list__item">
+                    <img class="contacts-list__icon" src="img/place.svg" alt="">
+                    <div class="contacts-list__description">
+                        <a class="contacts-list__link" href="">Al Qudra Rd - The Sustainable City</a>
+                        <label class="contacts-list__label" for="">Адрес</label>
+                    </div>
+                </li>
+            </ul>
+            <form class="feedback-form" action="">
+                <iframe class="feedback-form__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2552.5329615245114!2d55.29641936028431!3d25.209065055090772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43be607adc8b%3A0x27737495a74565f0!2sZaabel%20Palace%202!5e0!3m2!1sru!2sua!4v1679176472600!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="feedback-form__wrapper">
+                    <input class="input_simple" placeholder="Имя" type="text">
+                    <input class="input_simple" placeholder="Номер телефона" type="tel">
+                    <textarea class="textarea_simple" placeholder="Комментарий" name="" id="" cols="30" rows="10"></textarea>
+                    <button class="button">Отправить</button>
                 </div>
             </form>
-        </div>
+        </section>
     </main>
     <footer class="footer">
-        <div class="footer-info">
-            <div class="container">
-                <div class="info-block">
-                    <h2 class="text-h2">ВЛИЯНИЕ СТАРИННЫХ МОЛИТВ НА ЖИЗНЬ ЧЕЛОВЕКА</h2>
-                    <p class="text-p">В наши дни современный человек ищет пути к обретению достатка, материальных благ, семейного счастья, духовного и душевного покоя, семейного счастья, здоровья, наконец удачи, любви и счастья. И перед нами стоит вопрос: Как получить то чего желаем и о чем мечтаем?</p>
-                </div>
-                <div class="articles_mini">
-                    <header class="articles_mini-header">
-                        <h2 class="text-h2">Статьи</h2>
-                        <a class="link" href="">
-                            <h3 class="text-h3 underline">Смотреть все</h3>
-                        </a>
-                    </header>
-                    <ul class="articles_mini-list">
-                        <li class="articles_mini-list__item">
-                            <img class="articles_mini-list__preview" src="" alt="">
-                            <div class="articles_mini-list__wrapper">
-                                <h3 class="articles_mini-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
-                                <div class="articles_mini-list__date">
-                                    <img class="articles_mini-list__date-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="particles_mini-list__date-text">12.03.22</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="articles_mini-list__item">
-                            <img class="articles_mini-list__preview" src="" alt="">
-                            <div class="articles_mini-list__wrapper">
-                                <h3 class="articles_mini-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
-                                <div class="articles_mini-list__date">
-                                    <img class="articles_mini-list__date-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="particles_mini-list__date-text">12.03.22</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="articles_mini-list__item">
-                            <img class="articles_mini-list__preview" src="" alt="">
-                            <div class="articles_mini-list__wrapper">
-                                <h3 class="articles_mini-list__title">РАБОТА СО СНОВИДЕНИЯМИ</h3>
-                                <div class="articles_mini-list__date">
-                                    <img class="articles_mini-list__date-icon" src="img/desk_fill.svg" alt="">
-                                    <p class="particles_mini-list__date-text">12.03.22</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="info-block">
-                    <h2 class="text-h2">НАШИ ПРИОРИТЕТНЫЕ НАПРАВЛЕНИЯ</h2>
-                    <p class="text-p">Избавление от склонности к конфликтам и скандалам. Помощь гиперактивным и отстающим в развитии детям, родовые травмы. Коррекция негативных жизненных ситуаций и различные другие проблемы и заботы.</p>
-                </div>
-            </div>
+    <div class="container">
+        <div class="footer__top">
+            <a class="logo" href="index.html"></a>
+            <nav class="footer-nav">
+                <a class="footer-nav__link" href="">Главная</a>
+                <a class="footer-nav__link" href="">Недвижимость</a>
+                <a class="footer-nav__link" href="">Для Владельцев</a>
+                <a class="footer-nav__link" href="">О Нас</a>
+                <a class="footer-nav__link" href="">Контакты</a>
+            </nav>
+            <a class="contact-btn" href="">+971 52 592 49 94</a>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="contacts-wrapper">
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/phone.svg" alt="">
-                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
-                    </a>
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/house.svg" alt="">
-                        <h3 class="text-h3">Россия, Крымск</h3>
-                    </a>
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/phone.svg" alt="">
-                        <h3 class="text-h3">+7 (918) 321-17-71</h3>
-                    </a>
-                    <a class="link" href="">
-                        <img class="link__icon" src="img/email.svg" alt="">
-                        <h3 class="text-h3 red underline">iwana2014@yandex.ru</h3>
-                    </a>
-                </div>
-                <div class="flex-wrapper">
-                    <img class="free-kassa" src="img/free-kassa.svg" alt="">
-                    <p class="copyright">
-                        Copyright © 2017-2020 Спасительная магия. Все права защищены. Копирование материала строго запрещено.
-                    </p>
-                </div>
-            </div>
+        <div class="footer__bottom">
+            <span>© 2021-2023 EVASOFIA</span>
+            <a href="">Уведомление о конфиденциальности</a>
+            <a href="">Настройка файлов cookie</a>
         </div>
+    </div>
     </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

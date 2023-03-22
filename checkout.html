@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <button class="mm-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a class="logo" href="index.html"></a>
+            <nav class="header-nav">
+                <a class="header-nav__link selected" href="index.html">Главная</a>
+                <a class="header-nav__link" href="property-list.html">Недвижимость</a>
+                <a class="header-nav__link" href="for-owners.html">Для Владельцев</a>
+                <a class="header-nav__link" href="about-us.html">О Нас</a>
+                <a class="header-nav__link" href="contacts.html">Контакты</a>
+            </nav>
+            <div class="m-menu">
+                <nav class="header-nav">
+                    <a class="header-nav__link selected" href="index.html">Главная</a>
+                    <a class="header-nav__link" href="property-list.html">Недвижимость</a>
+                    <a class="header-nav__link" href="for-owners.html">Для Владельцев</a>
+                    <a class="header-nav__link" href="about-us.html">О Нас</a>
+                    <a class="header-nav__link" href="contacts.html">Контакты</a>
+                </nav>
+                <a class="mm-link" href="">+971 52 592 49 94</a>
+                <div class="m-menu__icons">
+                    <a href="">
+                        <img src="img/Instagram.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/contact.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <a class="contact-btn" href="">+971 52 592 49 94</a>
+        </div>
+    </header>
+    <main class="checkout-page">
+        <section class="checkout-section">
+            <h2 class="checkout__h2">Оформление Заявки</h2>
+            <p class="checkout__p">Оформите заявку и наш менеджер свяжется с вами втечение часа</p>
+            <h2 class="checkout__h2" style="margin-top: 32px;">Ваши Данные</h2>
+            <form class="checkout-form" action="">
+                <div>
+                    <input class="input_shadow" placeholder="ФИО" type="text">
+                    <input class="input_shadow" placeholder="Номер Телефона" type="tel">
+                    <input class="input_shadow" placeholder="Email" type="email">
+                </div>
+                <textarea class="textarea_shadow" placeholder="Комментарий к заказу" name="" id="" cols="30" rows="10"></textarea>
+            </form>
+            <section class="additional-services" id="additional-services">
+                <h2 class="text-h2">Выберите дополнительные услуги</h2>
+                <ul class="property-services">
+                    <li class="property-services__item">
+                        <img class="property-services__preview" src="img/additional-photo.png" alt="">
+                        <div class="property-services__description">
+                            <h3 class="property-services__title">Игристое вино</h3>
+                            <p class="property-services__text">Игристое вино в номер вино в номер вино в номер вино в номер</p>
+                            <div class="property-services__info">
+                                <span class="property-services__price">200 AED </span><span>за тарелку</span>
+                                <button class="property-services__add-btn">Добавить</button>
+                            </div>
+                        </div>
+                    </li>
+                    <button class="load-more">Посмотреть еще</button>
+                </ul>
+            </section>
+        </section>
+        <div class="summary-card">
+            <h3 class="summary-card__h3">Ваш заказ</h3>
+            <div class="property-summary">
+                <img class="property-summary__preview" src="img/calculator-photo.png" alt="">
+                <div class="property-summary__wrapper">
+                    <h3 class="property-summary__title">3-комн. кв., 104 м2 , 45/64 этаж</h3>
+                    <p class="property-summary__location">Jumeirah Beach Residence</p>
+                </div>
+            </div>
+            <ul class="summary-list">
+                <li class="summary-list__item">
+                    <label class="summary-list__label" for="">Стоимость проживания</label>
+                    <span class="summary-list__price">4,430 AED/мес</span>
+                </li>
+                <li class="summary-list__item">
+                    <label class="summary-list__label" for="">Залог</label>
+                    <span class="summary-list__price">3,500 AED</span>
+                </li>
+            </ul>
+            <div class="additional-summary">
+                <header class="additional-summary__header expanded">
+                    <span>Доп. услуги</span>
+                    <span>400 AED</span>
+                </header>
+                <ul class="additional-summary__list">
+                </ul>
+            </div>
+            <a class="summary-list__add-btn" href="#additional-services">Добавить доп. услуги</a>
+            <div class="promocode">
+                <input type="text" placeholder="Промокод">
+                <button>Применить</button>
+            </div>
+            <button class="summary-card__button">Оформить Заявку</button>
+        </div>
+        <div class="mm-checkout">
+            <div class="mm-checkout__wrapper">
+                <h2 class="mm-checkout__h2">4,430 AED/мес</h2>
+                <h3 class="mm-checkout__h3">Залог/Доп услуги <b>3,900 AED</b></h3>
+            </div>
+            <button class="mm-checkout__button">Оформить Заявку</button>
+        </div>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <a class="logo" href="index.html"></a>
+            <nav class="footer-nav">
+                <a class="footer-nav__link" href="">Главная</a>
+                <a class="footer-nav__link" href="">Недвижимость</a>
+                <a class="footer-nav__link" href="">Для Владельцев</a>
+                <a class="footer-nav__link" href="">О Нас</a>
+                <a class="footer-nav__link" href="">Контакты</a>
+            </nav>
+            <a class="contact-btn" href="">+971 52 592 49 94</a>
+        </div>
+        <div class="footer__bottom">
+            <span>© 2021-2023 EVASOFIA</span>
+            <a href="">Уведомление о конфиденциальности</a>
+            <a href="">Настройка файлов cookie</a>
+        </div>
+    </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
